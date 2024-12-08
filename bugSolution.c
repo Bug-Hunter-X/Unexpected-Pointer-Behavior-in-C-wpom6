@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; //Ensure that the address pointed to by the ptr is valid and not altered  *ptr = 20; printf("%d\n", x); return 0; }
